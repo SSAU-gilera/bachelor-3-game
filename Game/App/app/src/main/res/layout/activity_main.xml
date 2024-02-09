@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start_trop"
+    android:soundEffectsEnabled="false"
+    tools:mContext=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="268dp"
+        android:layout_height="269dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456"
+        app:srcCompat="@drawable/play_button"/>
+
+    <ImageButton
+        android:id="@+id/settings_button"
+        android:layout_width="119dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginRight="160dp"
+        android:background="@android:color/transparent"
+        android:scaleType="centerInside"
+        app:layout_constraintEnd_toEndOf="@+id/play_button"
+        app:layout_constraintTop_toTopOf="@+id/play_button"
+        app:srcCompat="@drawable/nastroiki_buttonstart" />
+
+    Button
+    android:id="@+id/button"
+    android:layout_width="394dp"
+    android:layout_height="218dp"
+    android:text="Button"
+    tools:layout_editor_absoluteX="239dp"
+    tools:layout_editor_absoluteY="143dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

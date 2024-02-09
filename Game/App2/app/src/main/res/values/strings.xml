@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyLife</string>
+    <string name="string_music">Музыка</string>
+    <string name="string_sound">Звук</string>
+    <string name="string_settings">Настройки</string>
+    <string name="string_lang">Язык</string>
+    <string name="string_1">Привет! Меня зовут Лера. И тут началась моя история...</string>
+    <string name="string_2">Я переехала в Самару.</string>
+    <string name="string_3">Третий текст </string>
+    <string name="string_4">Четвертый текст</string>
+    <string name="string_5">Пятый текст</string>
+</resources>
